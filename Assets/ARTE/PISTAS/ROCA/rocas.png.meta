@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1fde8dc3c1cdb1443a090734fa25f4b7
+guid: 95ba4b1d4c96ac144a9955547a2acca1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7802974776414433947
-    second: hormigaimagen_0
+      213: -2507816583152990964
+    second: rocas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hormigaimagen_0
+      name: rocas_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 17
-        height: 17
+        x: 0
+        y: 0
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b92f38b973cb94c60800000000000000
-      internalID: 7802974776414433947
+      spriteID: c050557ca12723dd0800000000000000
+      internalID: -2507816583152990964
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hormigaimagen_0: 7802974776414433947
+      rocas_0: -2507816583152990964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
