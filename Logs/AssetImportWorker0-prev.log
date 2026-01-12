@@ -1,8 +1,8 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.13f1 (418bd0acaa6b) revision 4295632'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 64661 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 64675 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2026-01-05T18:17:00Z
+Date: 2026-01-07T20:18:17Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.13f1\Editor\Unity.exe
@@ -16,9 +16,9 @@ C:/Users/ALUMNOS/Documents/GitHub/bugalipsis
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63958
+65464
 -job-worker-count
-11
+7
 -background-job-worker-count
 8
 -gc-helper-count
@@ -62,15 +62,15 @@ C:/Users/ALUMNOS/Documents/GitHub/bugalipsis
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24992]  Target information:
+Player connection [7480]  Target information:
 
-Player connection [24992]  * "[IP] 192.168.4.79 [Port] 0 [Flags] 2 [Guid] 3163488356 [EditorId] 3163488356 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MMGDRPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7480]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2815147462 [EditorId] 2815147462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MMGDRPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24992]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3163488356 [EditorId] 3163488356 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MMGDRPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7480]  * "[IP] 192.168.5.133 [Port] 0 [Flags] 2 [Guid] 2815147462 [EditorId] 2815147462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MMGDRPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24992] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24992] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [7480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 169.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.13f1 (418bd0acaa6b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/Resources/UnitySubsystems
@@ -89,55 +89,55 @@ Initialize engine version: 6000.1.13f1 (418bd0acaa6b)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Renderer:        NVIDIA GeForce RTX 4080 (ID=0x2704)
     Vendor:          NVIDIA
-    VRAM:            24142 MB
-    App VRAM Budget: 23374 MB
+    VRAM:            16050 MB
+    App VRAM Budget: 15282 MB
     Driver:          32.0.15.7700
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001325 seconds.
-- Loaded All Assemblies, in  0.264 seconds
+Registered in 0.231406 seconds.
+- Loaded All Assemblies, in  7.354 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1702 ms
+Android Extension - Scanning For ADB Devices 210 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.967 seconds
-Domain Reload Profiling: 2230ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 7792ms
+	BeginReloadAssembly (5702ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (340ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (110ms)
-		LoadAssemblies (86ms)
+	initialDomainReloadingComplete (259ms)
+	LoadAllAssembliesAndSetupDomain (1045ms)
+		LoadAssemblies (5707ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (107ms)
-				TypeCache.ScanAssembly (97ms)
+		AnalyzeDomain (1037ms)
+			TypeCache.Refresh (1035ms)
+				TypeCache.ScanAssembly (825ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1967ms)
+	FinalizeReload (439ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1933ms)
+		SetupLoadedEditorAssemblies (415ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1772ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			InitializePlatformSupportModulesInManaged (269ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,97 +146,369 @@ Domain Reload Profiling: 2230ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  6.616 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.523 seconds
-Domain Reload Profiling: 1064ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 7435ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (360ms)
-		LoadAssemblies (240ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (6452ms)
+		LoadAssemblies (6084ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (123ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (524ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (385ms)
+				TypeCache.ScanAssembly (374ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (821ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (566ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6711 unused Assets / (5.3 MB). Loaded Objects now: 7443.
-Memory consumption went from 142.2 MB to 137.0 MB.
-Total: 7.044700 ms (FindLiveObjects: 0.661300 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.527100 ms  DeleteObjects: 2.637700 ms)
+Unloading 6711 unused Assets / (3.9 MB). Loaded Objects now: 7444.
+Memory consumption went from 139.9 MB to 136.0 MB.
+Total: 5.786200 ms (FindLiveObjects: 0.638400 ms CreateObjectMapping: 0.219400 ms MarkObjects: 3.437800 ms  DeleteObjects: 1.490100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7818.904399 seconds.
-  path: Assets/ARTE/MENU/MENUPERSONAJES/hormiganegramenu.png
-  artifactKey: Guid(e704eaf685f81934d9976d0c06a96dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTE/MENU/MENUPERSONAJES/hormiganegramenu.png using Guid(e704eaf685f81934d9976d0c06a96dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6882db0b0a5146d57840ac34fb2abf22') in 0.1123932 seconds
+  Time since last request: 2241174.825735 seconds.
+  path: Assets/Scenes/MENUMAPAS.unity
+  artifactKey: Guid(2c8dd8528374d1d44bf7436e04cab9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MENUMAPAS.unity using Guid(2c8dd8528374d1d44bf7436e04cab9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fae3bfc474428e79371673cbdc6440f') in 0.0061677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.903671 seconds.
+  path: Assets/Scenes/MENU PRINCIPAL.unity
+  artifactKey: Guid(337b5486c0a55f54998a820db91c9981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MENU PRINCIPAL.unity using Guid(337b5486c0a55f54998a820db91c9981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f446108fc16e867f3505aef3c6d157ca') in 0.0005571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.576292 seconds.
+  path: Assets/Scenes/MENUPERSONAJES.unity
+  artifactKey: Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MENUPERSONAJES.unity using Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6823da2b9ff9c8b7cceea60f3a0e6695') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983164 seconds.
+  path: Assets/Scenes/PISTA 1.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PISTA 1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b0bbde5368a97d7bb2bc72965ccf87') in 0.0005305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711084 seconds.
+  path: Assets/Scenes/PISTA2.unity
+  artifactKey: Guid(645f91e20a2a06d438195fafd108e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PISTA2.unity using Guid(645f91e20a2a06d438195fafd108e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e79012277df7b55c8919fca3d98a4f8') in 0.0008662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2495.265780 seconds.
+  path: Assets/Scenes/PISTA 3.unity
+  artifactKey: Guid(ae1e181ecfbbcff43a7638254049d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PISTA 3.unity using Guid(ae1e181ecfbbcff43a7638254049d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10a9536b6fab03438587e4346cb8ff1a') in 0.0005092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.239360 seconds.
+  path: Assets/ARTE/PISTA
+  artifactKey: Guid(aa3c26bca30ad004e99664abe2425332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTA using Guid(aa3c26bca30ad004e99664abe2425332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbf2dc44776319d1cd9e2f0e923518af') in 0.0021899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.805118 seconds.
+  path: Assets/ARTE/PISTA/TIERRA
+  artifactKey: Guid(9baecc8537693af4795c3a5c24fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTA/TIERRA using Guid(9baecc8537693af4795c3a5c24fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35e3f4acb117bd67c7d96bb1723dfd14') in 0.0007724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.446898 seconds.
+  path: Assets/ARTE/PISTAS
+  artifactKey: Guid(526faf683b22ef54d8072d3907db0b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS using Guid(526faf683b22ef54d8072d3907db0b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63f51568aaba994ba82495a1c07219ed') in 0.0004665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1794.708632 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE
+  artifactKey: Guid(9a9e11845fe799445ac5b1ae1da9bc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE using Guid(9a9e11845fe799445ac5b1ae1da9bc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89d75c82599c98526e461f10423575b3') in 0.0004359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.174761 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievec.png
+  artifactKey: Guid(eb5338a4ffde32f4b9b88281cd1016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievec.png using Guid(eb5338a4ffde32f4b9b88281cd1016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc0f82f7f33448f95d2663e9f2e5fb75') in 0.0920843 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.602731 seconds.
-  path: Assets/Scenes/MENUPERSONAJES.unity
-  artifactKey: Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MENUPERSONAJES.unity using Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c2d60ad2a7bc49c195fe57d77d05e97') in 0.0004389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.935868 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievecc.png
+  artifactKey: Guid(af5bf8654e152424c9260f111a9088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievecc.png using Guid(af5bf8654e152424c9260f111a9088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69613e341e32c251a4c8a8d0b42d9518') in 0.0198263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3618.608857 seconds.
-  path: Assets/Scenes/PISTA2.unity
-  artifactKey: Guid(645f91e20a2a06d438195fafd108e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PISTA2.unity using Guid(645f91e20a2a06d438195fafd108e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e79012277df7b55c8919fca3d98a4f8') in 0.0012518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 8.761599 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievee.png
+  artifactKey: Guid(0328bfcb8c306de4caaea367ec71347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievee.png using Guid(0328bfcb8c306de4caaea367ec71347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d3bb9747b2f3babcdb5ffc43494273a') in 0.0198333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.041053 seconds.
-  path: Assets/Scenes/MENUMAPAS.unity
-  artifactKey: Guid(2c8dd8528374d1d44bf7436e04cab9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MENUMAPAS.unity using Guid(2c8dd8528374d1d44bf7436e04cab9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0de5cc0fe9ece986eff89dee58903de1') in 0.0004802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 3.420745 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieven.png
+  artifactKey: Guid(c55add5885f1c0d44b2f36416e5692e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieven.png using Guid(c55add5885f1c0d44b2f36416e5692e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '853aae4653fd318c9956aa60280c95e3') in 0.0141834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.559215 seconds.
-  path: Assets/Scenes/MENUPERSONAJES.unity
-  artifactKey: Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MENUPERSONAJES.unity using Guid(22c52678bddce2c458e54bbd260cbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218931379ff3657f518ad153c2719632') in 0.0004178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.951426 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievene.png
+  artifactKey: Guid(2fd950b5e7da9bf4fbddcba2bc2870c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievene.png using Guid(2fd950b5e7da9bf4fbddcba2bc2870c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29b9e88b5569ee60074e9f975351efe7') in 0.0141879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.304311 seconds.
-  path: Assets/ARTE/MENU/MENUMAPAS/lianas.png
-  artifactKey: Guid(c09c6afef1316bd4791027336d642dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTE/MENU/MENUMAPAS/lianas.png using Guid(c09c6afef1316bd4791027336d642dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b53d9cb8e6aae27a54a6924f6dae750') in 0.0296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 3.380928 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveno.png
+  artifactKey: Guid(d4b70625a30f368469ced46d3857cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveno.png using Guid(d4b70625a30f368469ced46d3857cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '786b23a73124073a38ad43dee7a5721a') in 0.0189548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.327827 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveo.png
+  artifactKey: Guid(09a9d694b07c0d4418e1e3413276dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveo.png using Guid(09a9d694b07c0d4418e1e3413276dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60f4fb61f42ba63a58913c9b82333cfb') in 0.0182448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.115486 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieves.png
+  artifactKey: Guid(1b0e7d8e71b85214ab28f35bb8186b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieves.png using Guid(1b0e7d8e71b85214ab28f35bb8186b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cadb3f3ec62319674fc64254e7c4dd23') in 0.0211927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.410211 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievese.png
+  artifactKey: Guid(f4eaa14bd80a39a42a1089aad10b9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievese.png using Guid(f4eaa14bd80a39a42a1089aad10b9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '587991050b4e9b737882985272f44a96') in 0.0197116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010624 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveso.png
+  artifactKey: Guid(54171eb1b9a4f5a4aa382371cc803059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveso.png using Guid(54171eb1b9a4f5a4aa382371cc803059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081238ecd9489f60a0a2a96105521bc3') in 0.0139929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1725.269548 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveai.png
+  artifactKey: Guid(ebfb01a7d17659a40b7f0f7c157bae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveai.png using Guid(ebfb01a7d17659a40b7f0f7c157bae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66e152093bda396e74c1f5a2ac6db6d5') in 0.0382001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievepc.png
+  artifactKey: Guid(413db26626b46914d89710b52edce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievepc.png using Guid(413db26626b46914d89710b52edce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdf385cd401e82e9993046a096aeb933') in 0.0136016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievepb.png
+  artifactKey: Guid(c5f7078aa404a664ab7282d58c5a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievepb.png using Guid(c5f7078aa404a664ab7282d58c5a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c2028a677ef913883d5e9eea959ef34') in 0.010549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.504281 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveac.png
+  artifactKey: Guid(1ab199edfb74f344887b35fef98bbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveac.png using Guid(1ab199edfb74f344887b35fef98bbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a22d149166584f532e672fda5c6ad77b') in 0.0164618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.638577 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveac.png
+  artifactKey: Guid(1ab199edfb74f344887b35fef98bbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveac.png using Guid(1ab199edfb74f344887b35fef98bbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c91c4f10adb0642d7579afbba35c34') in 0.0204702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.058346 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievead.png
+  artifactKey: Guid(341aed2d6e8bec946b3e1aed7686c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievead.png using Guid(341aed2d6e8bec946b3e1aed7686c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55ec40301d369217f13167c152089e3') in 0.0216074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.664964 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveai.png
+  artifactKey: Guid(ebfb01a7d17659a40b7f0f7c157bae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveai.png using Guid(ebfb01a7d17659a40b7f0f7c157bae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3222fda0374e087d281e926cbafe41f9') in 0.0179625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.567896 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievec.png
+  artifactKey: Guid(eb5338a4ffde32f4b9b88281cd1016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievec.png using Guid(eb5338a4ffde32f4b9b88281cd1016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d5b2554f2ad883a7689d6363fe3b6c') in 0.0099071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.649179 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievecc.png
+  artifactKey: Guid(af5bf8654e152424c9260f111a9088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievecc.png using Guid(af5bf8654e152424c9260f111a9088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ab6eeafaea120810890b61a3e1568b') in 0.0169404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.219587 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievee.png
+  artifactKey: Guid(0328bfcb8c306de4caaea367ec71347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievee.png using Guid(0328bfcb8c306de4caaea367ec71347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '740dc5f0cc2a09e2fd5775e8e44a89ad') in 0.0201042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.946184 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieven.png
+  artifactKey: Guid(c55add5885f1c0d44b2f36416e5692e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieven.png using Guid(c55add5885f1c0d44b2f36416e5692e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '835e131a428a4dee66885dc8833c3a62') in 0.0141459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.682146 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievene.png
+  artifactKey: Guid(2fd950b5e7da9bf4fbddcba2bc2870c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievene.png using Guid(2fd950b5e7da9bf4fbddcba2bc2870c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa2c7f7e648f67aaf8623855b6e207c6') in 0.0170729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.530262 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveno.png
+  artifactKey: Guid(d4b70625a30f368469ced46d3857cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveno.png using Guid(d4b70625a30f368469ced46d3857cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72aaba53a3cea1a0100dae67026bbcf') in 0.0159307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.636112 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveo.png
+  artifactKey: Guid(09a9d694b07c0d4418e1e3413276dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveo.png using Guid(09a9d694b07c0d4418e1e3413276dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b71ed441552014f679b49c39942da9c') in 0.0206777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.937342 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievepa.png
+  artifactKey: Guid(76dd132b3b2c5b9479d10781d4466fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievepa.png using Guid(76dd132b3b2c5b9479d10781d4466fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f1a3af66dccb3403e67f9bac3a279fc') in 0.0213007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.413139 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievepb.png
+  artifactKey: Guid(c5f7078aa404a664ab7282d58c5a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievepb.png using Guid(c5f7078aa404a664ab7282d58c5a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d42d5592d00dce3026d80432e87f980') in 0.020129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.938310 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievepc.png
+  artifactKey: Guid(413db26626b46914d89710b52edce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievepc.png using Guid(413db26626b46914d89710b52edce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '130b86f8e8399afab58e5147b25e3228') in 0.0189433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.547722 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieves.png
+  artifactKey: Guid(1b0e7d8e71b85214ab28f35bb8186b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieves.png using Guid(1b0e7d8e71b85214ab28f35bb8186b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26e6f644471c78ac7c21bb8e521e2539') in 0.0205739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.873740 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nievese.png
+  artifactKey: Guid(f4eaa14bd80a39a42a1089aad10b9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nievese.png using Guid(f4eaa14bd80a39a42a1089aad10b9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1103daebfd1e225c250af39ed29ddf73') in 0.0161449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.023443 seconds.
+  path: Assets/ARTE/PISTAS/NIEVE/nieveso.png
+  artifactKey: Guid(54171eb1b9a4f5a4aa382371cc803059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARTE/PISTAS/NIEVE/nieveso.png using Guid(54171eb1b9a4f5a4aa382371cc803059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d598e0fb80f5042e07e6fdb0e0b9b4e') in 0.014643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
