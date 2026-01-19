@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerDrive2D : MonoBehaviour
 {
+    [SerializeField]HORMIGA antData;
+    public SpriteRenderer spriteRenderer;
     public float speed = 5f;
     public float turnForce = 10f;
     private Rigidbody2D rb;
@@ -11,8 +13,13 @@ public class PlayerDrive2D : MonoBehaviour
 
     private PlayerActions actions;
 
+    private void Awake()
+    {
+       spriteRenderer.sprite = antData.antSkin;
+    }
     void Start()
     {
+        
         if (!TryGetComponent(out rb))
         {
             rb = gameObject.AddComponent<Rigidbody2D>();
