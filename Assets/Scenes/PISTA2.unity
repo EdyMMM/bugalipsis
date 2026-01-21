@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 403751086}
   - component: {fileID: 403751085}
   m_Layer: 0
-  m_Name: Ceniza
+  m_Name: ceniza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265375,7 +265375,7 @@ GameObject:
   - component: {fileID: 758082080}
   - component: {fileID: 758082079}
   m_Layer: 0
-  m_Name: Lava
+  m_Name: lava
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269364,7 +269364,7 @@ GameObject:
   - component: {fileID: 1052319634}
   - component: {fileID: 1052319633}
   m_Layer: 0
-  m_Name: Meta
+  m_Name: meta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269693,7 +269693,7 @@ GameObject:
   - component: {fileID: 1619699409}
   - component: {fileID: 1619699408}
   m_Layer: 3
-  m_Name: Roca
+  m_Name: roca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270977,7 +270977,7 @@ GameObject:
   - component: {fileID: 1658920184}
   - component: {fileID: 1658920186}
   m_Layer: 3
-  m_Name: Volcan
+  m_Name: volcan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

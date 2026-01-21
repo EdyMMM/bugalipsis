@@ -3184,7 +3184,7 @@ GameObject:
   - component: {fileID: 1383319511}
   - component: {fileID: 1383319513}
   m_Layer: 3
-  m_Name: Tilemap
+  m_Name: pasto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218399,7 +218399,7 @@ GameObject:
   - component: {fileID: 1457820352}
   - component: {fileID: 1457820351}
   m_Layer: 0
-  m_Name: Tierra
+  m_Name: tierra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
