@@ -492765,7 +492765,7 @@ GameObject:
   - component: {fileID: 2120125711}
   - component: {fileID: 2120125710}
   m_Layer: 0
-  m_Name: hormigaimagen_0
+  m_Name: Bicho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

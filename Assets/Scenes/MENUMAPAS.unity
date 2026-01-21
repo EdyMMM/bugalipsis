@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 54828285}
   - component: {fileID: 54828284}
   m_Layer: 0
-  m_Name: milpies_0 (2)
+  m_Name: milpies2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 267490568}
   - component: {fileID: 267490567}
   m_Layer: 0
-  m_Name: lianas_0
+  m_Name: lianas12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 405619868}
   - component: {fileID: 405619867}
   m_Layer: 0
-  m_Name: milpies_0 (1)
+  m_Name: milpies1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1392,7 +1392,7 @@ GameObject:
   - component: {fileID: 1164792131}
   - component: {fileID: 1164792130}
   m_Layer: 0
-  m_Name: lianas_1 (1)
+  m_Name: lianas21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,7 +1615,7 @@ GameObject:
   - component: {fileID: 1418356759}
   - component: {fileID: 1418356758}
   m_Layer: 0
-  m_Name: lianas_0 (1)
+  m_Name: lianas22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1834,7 +1834,7 @@ GameObject:
   - component: {fileID: 1750371018}
   - component: {fileID: 1750371017}
   m_Layer: 0
-  m_Name: lianas_1
+  m_Name: lianas11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

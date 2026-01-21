@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 79779661}
   - component: {fileID: 79779660}
   m_Layer: 0
-  m_Name: hojapix_0 (1)
+  m_Name: hojapix2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 230998025}
   - component: {fileID: 230998024}
   m_Layer: 0
-  m_Name: "monta\xF1a2pix_0"
+  m_Name: "monta\xF1a2pix"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 252643382}
   - component: {fileID: 252643381}
   m_Layer: 0
-  m_Name: hojapix_0
+  m_Name: hojapix1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 638108156}
   - component: {fileID: 638108155}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Squarep3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 676660234}
   - component: {fileID: 676660233}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Squarep2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 829765212}
   - component: {fileID: 829765211}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Squarep1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 830909910}
   - component: {fileID: 830909909}
   m_Layer: 0
-  m_Name: volcanpix_0
+  m_Name: volcanpix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 1072946800}
   - component: {fileID: 1072946799}
   m_Layer: 0
-  m_Name: "monta\xF1apix_0"
+  m_Name: "monta\xF1apix"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
