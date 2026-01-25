@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 7647892782174293143}
   - component: {fileID: 5966854842155999180}
   m_Layer: 0
-  m_Name: Tierra
+  m_Name: TIERRA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
