@@ -13,13 +13,15 @@ public class PlayerDrive2D : MonoBehaviour
 
     private PlayerActions actions;
 
+    private Animator animator;
+
     private void Awake()
     {
        spriteRenderer.sprite = antData.antSkin;
     }
     void Start()
     {
-        
+        animator = gameObject.GetComponent<Animator>();
         if (!TryGetComponent(out rb))
         {
             rb = gameObject.AddComponent<Rigidbody2D>();
@@ -33,6 +35,14 @@ public class PlayerDrive2D : MonoBehaviour
     void Update()
     {
         input = actions.Game.Move.ReadValue<Vector2>();
+        if (input.magnitude > 0)
+        {
+            animator.SetBool("walking", true);
+        }
+        else
+        {
+            animator.SetBool("walking", false);
+        }
     }
 
     void FixedUpdate()

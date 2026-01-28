@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d1daadf8ecbb549b09ee408cb92462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fuerza: 80
+  Fuerza: 120
 --- !u!223 &377576984 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 296029670889552325, guid: 9b4b9ebda66193243827c4a7b1f90d81, type: 3}
@@ -475839,7 +475839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d1daadf8ecbb549b09ee408cb92462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fuerza: 80
+  Fuerza: 120
 --- !u!61 &1661381895
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -475992,7 +475992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d1daadf8ecbb549b09ee408cb92462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fuerza: 80
+  Fuerza: 120
 --- !u!1 &1694660293
 GameObject:
   m_ObjectHideFlags: 0
@@ -476084,7 +476084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d1daadf8ecbb549b09ee408cb92462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fuerza: 80
+  Fuerza: 120
 --- !u!1 &1960160292
 GameObject:
   m_ObjectHideFlags: 0
